@@ -7,7 +7,7 @@
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
-    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="v"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
@@ -97,15 +97,50 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+
+      <!-- SECTION: nouns -->
+
+      <e><p><l>саясат<s n="n"/></l><r>siyasat<s n="n"/></r></p></e>
+      <e><p><l>трактор<s n="n"/></l><r>traktor<s n="n"/></r></p></e>
+      <e><p><l>аба<b/>ырайы<s n="n"/></l><r>hawa<b/>rayi<s n="n"/></r></p></e>
+      <e><p><l>бакча<s n="n"/></l><r>baqsha<s n="n"/></r></p></e>
+      <e><p><l>себеп<s n="n"/></l><r>sebep<s n="n"/></r></p></e>
+      <e><p><l>эшик<s n="n"/></l><r>dala<s n="n"/></r></p></e>
+      <e><p><l>дайыма<s n="adv"/></l><r>barqulla<s n="adv"/></r></p></e>
+      <e><p><l>бас<s n="n"/></l><r>bas<s n="n"/></r></p></e>
+      <e><p><l>үй<s n="n"/></l><r>u'y<s n="n"/></r></p></e>
+      <e><p><l>алдын<s n="n"/></l><r>aldın<s n="n"/></r></p></e>
+      <!-- SECTION: adverbs -->      
+      <e><p><l>бүгүн<s n="adv"/></l><r>bu'gin<s n="adv"/></r></p></e>
+      <e><p><l>абдан<s n="adv"/></l><r>a'bden<s n="adv"/></r></p></e>
+      <e><p><l>кечээ<s n="adv"/></l><r>keshe<s n="adv"/></r></p></e>
+      <e><p><l>аябай<s n="adv"/></l><r>ju'da'<s n="adv"/></r></p></e>
+      <e><p><l>алдында<s n="adv"/></l><r>aldında<s n="adv"/></r></p></e>
+      <!-- SECTION: adjectives -->  
+	  <e><p><l>жакшы<s n="adj"/></l><r>jaqsı<s n="adj"/></r></p></e>
+	  <e><p><l>жылуу<s n="adj"/></l><r>jıllı<s n="adj"/></r></p></e>
+	  <e><p><l>суук<s n="adj"/></l><r>suwıq<s n="adj"/></r></p></e>
+	  <e><p><l>чоң<s n="adj"/></l><r>u'lken<s n="adj"/></r></p></e>
+
+      <!-- SECTION: Conjunctions -->
+
+      <e><p><l>бирок<s n="cnjcoo"/></l><r>biraq<s n="cnjcoo"/></r></p></e>
+      <e><p><l>жана<s n="cnjcoo"/></l><r>penen<s n="cnjcoo"/></r></p></e>
+      <e><p><l>да<s n="cnjcoo"/></l><r>da<s n="cnjcoo"/></r></p></e>	
+
+      <!-- SECTION: pronouns -->
+	  <e><p><l>алар<s n="prn"/><s n="pers"/></l><r>olar<s n="prn"/><s n="pers"/></r></p></e>
+	  <!-- SECTION: verbs -->
+	  <e><p><l>ойно<s n="v"/></l><r>oyna<s n="v"/></r></p></e>
+	  <e><p><l>жакшы<b/>көр<s n="v"/></l><r>jaqsı<b/>ko'r<s n="v"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
 </dictionary>
-
 <!--
 Resources:
+á  ǵ  ı  ó  ń   ú  
     http://wiki.apertium.org/wiki/Bilingual_dictionary
     http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
 -->

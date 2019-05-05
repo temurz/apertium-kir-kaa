@@ -22,7 +22,6 @@ TARGETS_COMMON =		\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
 	$(PREFIX2).automorf.bin	\
-	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
